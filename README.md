@@ -1,6 +1,6 @@
 ### Install: 
 ```bash
-git clone "https://github.com/KalleHallden/ProjectInitializationAutomation.git"
+git clone "https://github.com/cooolinho/ProjectInitializationAutomation.git"
 cd ProjectInitializationAutomation
 pip install -r requirements.txt
 touch .env
@@ -15,7 +15,6 @@ To run the script type in 'create <name of your folder>'
 
 ### Env File Format:
 ```bash
-USERNAME="Username123"
-PASSWORD="Password123"
+GITHUB_TOKEN="tokenxyz"
 FILEPATH="/path/to/your/project/"
 ```
