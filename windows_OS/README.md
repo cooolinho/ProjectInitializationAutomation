@@ -1,12 +1,4 @@
-### pre-setup:
-```
-create env vars :
-> projects directory as - "mp"
-> Github tocken as      - "gt"
-> IDE command to open   - "ide"
-```
-
-### setup: 
+### Install: 
 ```bash
 git clone "https://github.com/cooolinho/ProjectInitializationAutomation.git"
 cd ProjectInitializationAutomation/windows_OS
@@ -21,5 +13,12 @@ add "/path/to/your/project/windows_OS" to SYSTEM PATH
 ```bash
 Command to run the program type
 
-create <project_name> <private/prublic>
+create <project_name> <private/public>
+```
+
+### Env File Format:
+```bash
+mp="/path/to/your/project/"
+gt=<your-token>
+ide=<phpstorm64/code/sublime>
 ```

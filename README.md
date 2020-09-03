@@ -10,7 +10,9 @@ source ~/.my_commands.sh
 
 ### Usage:
 ```bash
-To run the script type in 'create <name of your folder>'
+Command to run the program type
+
+create <project_name> <private/public>
 ```
 
 ### Env File Format:
