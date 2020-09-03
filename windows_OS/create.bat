@@ -1,17 +1,11 @@
 @echo off
 
 set fn=%1
-set flag=%2
+set public_private=%2
 cd /d %~dp0
 
 If "%1"=="" (
-    echo "error"
-) else ( 
-    if "%2"=="" (
-        python remote.py %fn%
-    ) else (
-        if "%2"=="l" (
-            python local.py %fn%
-        )
-    )
+    echo "create <folder_name> <public/private>"
+) else (
+    python create.py %fn% %public_private%
 )
